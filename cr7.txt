@@ -1,2 +1,52 @@
-suiii
+exp1:
+Create an account 
+
+Exp2:
+Create a repository 
+git init
+git remote add origin repo_url
+Create a file
+git add file_name
+git commit -m "something"
+git push
+
+Exp3:
+git clone repo_url
+git checkout -b NewBranch
+Make changes to the file
+git add file_name
+git commit -m "New changes"
+git push
+git checkout main (or) git checkout master
+git merge NewBranch 
+git push
+
+Exp4:
+Create an Issue
+git clone repo_url
+make changes to the text file
+git add file_name
+git commit -m "Fixed an issue"
+git push
+Close the issue
+
+Exp5:
+Forke a repository 
+Git clone forked_repo
+made changes to the file
+git add file_name
+git commit -m "new changes"
+git push
+Create a new pull request from your account 
+From the 2nd account merge the pull request 
+
+Exp6:
+git clone url
+git submodule add repo_url
+git add *
+git commit -m "Added submodule"
+git push
+
+git config alias.st status
+git st
 
